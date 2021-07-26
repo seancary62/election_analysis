@@ -1,4 +1,4 @@
-# election_analysis
+# Election_Analysis
 Election analysis homework using Python
 
 ## Overview of Election Audit
@@ -8,7 +8,7 @@ Over the past week we've been helping Seth and Tom by creating a python program 
 The purpose of this analysis was to determine the total number of votes, votes for each county, percentage of votes for each county, percentage of votes for each candidate, and record the winner of the election.
 
 ## Election Audit-Results
-From the analysis we created a text file with the following information regarding the results of the analysys:
+From the analysis we created a text file with the following information regarding the results of the analysis:
 
 - Total Votes: 369,711
 
@@ -30,6 +30,6 @@ From the analysis we created a text file with the following information regardin
 - Winning Percentage: 73.8%
 
 ## Election Audit Summary
-This script could easily be repurposed and used for another election. Almost all of the script could be applied to any similar election data. There are a couple of of items that would need to be checked though. First of all, the working directory and file locations would need to math the paths of 'file_to_load' and 'file_to_save' variables. If the CSV file is not in the proper location you would get an error message addressing this. You would also need to make sure that the 'county_name' and 'candidate_name' match the correct columns or you will recieve false results. 
+This script could easily be repurposed and used for another election. Almost all of the script could be applied to any similar election data. There are a couple of of items that would need to be checked though. First of all, the working directory and file locations would need to match the paths of 'file_to_load' and 'file_to_save' variables. If the CSV file is not in the proper location you would get an error message addressing this. You would also need to make sure that the 'county_name' and 'candidate_name' match the correct columns or you will recieve false results. 
 
-However, the script should be scalable for any number of candidates or governing body. Counties could even be modified to states so long as the variables and column call outs match correctly.
+However, the script should be scalable for any number of candidates or governing bodies. Counties could even be modified to states so long as the variables and column call outs match correctly.
